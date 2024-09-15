@@ -22,5 +22,8 @@ date = show the date.
 date -s = set the date.
 vim
 useradd clouduser = user create
+cat /etc/passwd
+cat /etc/passwd | grep username = show the user details
+passwd clouduser = set the password
 
 
