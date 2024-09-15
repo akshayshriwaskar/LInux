@@ -4,4 +4,4 @@ pwd = Present working directory
 ls = Listing Directory
 ls -lrth =
 touch file.txt = create empty files and update the timestamps of existing files
-
+rm file.txt = is used to remove objects such as files, directories, symbolic links and so on from the file system like UNIX.
