@@ -14,5 +14,7 @@ echo "content">>filename.ext = for file concatenation.
 mv = is used to move files. mv can also be used to rename a file.
 free -h = free displays the total amount of free and used physical memory and swap space in the system, as well as the buffers and cache consumed by the kernel in human readable format.
 free
-cat /proc/cpuinfo = To gather as much detailed information about the CPU
+cat /proc/cpuinfo = To gather as much detailed information about the CPU.
+grep = searching and manipulating text patterns within files. i.e., cat /proc/cpuinfo | grep -i processor
+
 
