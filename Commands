@@ -3,3 +3,5 @@ cd = Change directory
 pwd = Present working directory
 ls = Listing Directory
 ls -lrth =
+touch file.txt = create empty files and update the timestamps of existing files
+
