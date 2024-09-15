@@ -25,5 +25,6 @@ useradd clouduser = user create
 cat /etc/passwd
 cat /etc/passwd | grep username = show the user details
 passwd clouduser = set the password
+echo "random" | passwd --stdin clouduser = set the user password
 
 
