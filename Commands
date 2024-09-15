@@ -21,4 +21,6 @@ ctrl + l = Will clear the screen.
 date = show the date.
 date -s = set the date.
 vim
+useradd clouduser = user create
+
 
