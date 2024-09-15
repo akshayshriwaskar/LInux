@@ -6,3 +6,4 @@ ls -lrth =
 touch i.e., touch file.txt = create empty files and update the timestamps of existing files
 rm  i.e., rm file.txt = is used to remove objects such as files, directories, symbolic links and so on from the file system like UNIX.
 rm -f i.e., rm file.txt = is used to forcefully remove objects such as files, directories, symbolic links and so on from the file system like UNIX.
+rm -r = remove directory.
