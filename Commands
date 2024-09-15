@@ -42,6 +42,18 @@ chmod u+x file.txt
 chmod o-wx file.txt = Remove other user write execute permissions
 chmod g-wx file.txt = Remove Group user write execute permissions
 chmod u-wx file.txt = Remove Root user write execute permissions
+chmod 777 file.txt = Gives Full persmissions
+chmod 741 file.txt
+chmod 777 foldername will give read, write, and execute permissions for everyone.
+chmod 700 foldername will give read, write, and execute permissions for the user only.
+chmod 327 foldername will give write and execute (3) permission for the user, w (2) for the group, and read, write, and execute for the users.
+chmod g+w filename
+chmod g-wx filename
+chmod o+w filename
+chmod o-rwx foldername
+mv {1..10}.txt newfolder = file moves
+touch tiktok {1..10}.txt = create multiple files
+
 
 
 
