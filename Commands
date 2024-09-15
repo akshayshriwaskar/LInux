@@ -8,3 +8,4 @@ rm  i.e., rm file.txt = is used to remove objects such as files, directories, sy
 rm -f i.e., rm file.txt = is used to forcefully remove objects such as files, directories, symbolic links and so on from the file system like UNIX.
 rm -r = remove directory.
 rm -r = remove directory forcefully.
+cat = Can be used for a variety of tasks, including: Displaying file contents,Merging files,Appending to text files,Creating new files,Numbering lines,Revealing non-printing characters.
