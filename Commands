@@ -11,3 +11,4 @@ rm -r = remove directory forcefully.
 cat = Can be used for a variety of tasks, including: Displaying file contents,Merging files,Appending to text files,Creating new files,Numbering lines,Revealing non-printing characters.
 echo "content">filename.ext= for file creation.
 echo "content">>filename.ext = for file concatenation.
+mv = is used to move files.mv can also be used to rename a file.
