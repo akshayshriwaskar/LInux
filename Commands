@@ -26,5 +26,12 @@ cat /etc/passwd
 cat /etc/passwd | grep username = show the user details
 passwd clouduser = set the password
 echo "random" | passwd --stdin clouduser = set the user password
+useradd -d /opt/myuser myuser
+id -u fedora
+useradd -G newgroup -c "DevOps Eng." cloudnewuser
+useradd -s /sbin/nologin cloudolduser
+gpasswd -d cloudnewuser newgroup =  Removing user cloudnewuser from group newgroup
+groupdel newgroup = group delete
+
 
 
