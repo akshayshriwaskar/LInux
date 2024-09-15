@@ -1,4 +1,5 @@
 Mkdir = Make directory
 cd = Change directory
 pwd = Present working directory
+ls = Listing Directory
 ls -lrth =
