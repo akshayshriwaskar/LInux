@@ -32,6 +32,16 @@ useradd -G newgroup -c "DevOps Eng." cloudnewuser
 useradd -s /sbin/nologin cloudolduser
 gpasswd -d cloudnewuser newgroup =  Removing user cloudnewuser from group newgroup
 groupdel newgroup = group delete
+df -h
+su - fedora = superuser power gives to normal user
+exit= logout user
+usermod -G wheel fedora = user group modified
+chmod g+wx file.txt
+chmod a+wrx file.txt
+chmod u+x file.txt
+chmod o-wx file.txt = Remove other user write execute permissions
+chmod g-wx file.txt = Remove Group user write execute permissions
+chmod u-wx file.txt = Remove Root user write execute permissions
 
 
 
