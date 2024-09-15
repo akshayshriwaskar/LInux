@@ -16,5 +16,5 @@ free -h = free displays the total amount of free and used physical memory and sw
 free
 cat /proc/cpuinfo = To gather as much detailed information about the CPU.
 grep = searching and manipulating text patterns within files. i.e., cat /proc/cpuinfo | grep -i processor
-
+ctrl+ c = used to forcefully terminate a running process.
 
