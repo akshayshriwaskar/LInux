@@ -54,5 +54,6 @@ chmod o-rwx foldername
 mv {1..10}.txt newfolder = file moves
 touch tiktok {1..10}.txt = create multiple files
 chown -R = allows you to change user and group ownership of a file
-chgrp fedora tiktok* = change group
+chgrp fedora tiktok* = change groupname
+chown fedora tiktok* = change ownername
 
