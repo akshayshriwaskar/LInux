@@ -92,5 +92,5 @@ firewall-cmd --list -all
 firewall-cmd --permanent --add-port=80/tcp
 firewall-cmd --permanent --remove-port=80/tcp
 sed 's/bro/crow/' abc.txt = temperory file modifiled
-
+sed -i 's/crow/bro/' cloudtech.txt = Permenently file modifiled
 
