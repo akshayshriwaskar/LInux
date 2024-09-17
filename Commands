@@ -78,6 +78,7 @@ tar -czvf ab.tar /etc/tar -czvf ab.tar.gz /etc = = To Zip file .tar.gz
 tar -xvf ab.tar /etc = To extract tar files
 tar -xvf ab.tar.gz /etc = To extract tar files
 tar -xvf ab.tar.bz2 /etc = To extract tar files
+nohup yum install httpd -y = Package installed in background
 
 
 
