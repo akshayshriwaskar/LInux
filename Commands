@@ -102,3 +102,4 @@ cp unix.txt linux/ = copy file to specific folder
 reboot
 poweroff
 head -5 tech.txt = starting 5 lines of code or content
+tail -5 tech.txt = = Ending 5 lines of code or content
