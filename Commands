@@ -110,4 +110,7 @@ groupadd calsoft
 cat /etc/group | grep akshay
 useradd -s /sbin/nologin tester = To create inactive user
 usermod -s /bin/bash tester = = To create active user
+grooupdel groupname. i.e., grooupdel calsoft
+userdel username .i., userdel tester 
+
 
