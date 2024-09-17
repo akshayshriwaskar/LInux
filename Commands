@@ -95,4 +95,5 @@ sed 's/bro/crow/' abc.txt = temperory file modifiled
 sed -i 's/crow/bro/' cloudtech.txt = Permenently file modifiled
 dig google.com
 nslookup facebook.com
+mkdir -pv user1/user2/user3
 
