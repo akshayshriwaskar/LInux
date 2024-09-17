@@ -57,3 +57,8 @@ chown -R = allows you to change user and group ownership of a file
 chgrp fedora tiktok* = change groupname
 chown fedora tiktok* = change ownername
 lsblk = list out all block devices in a tree-like format
+yum install httpd -y =  install package
+yum list installed | grep httpd = to Check installed package
+yum remove httpd -y = remove installed package
+
+
