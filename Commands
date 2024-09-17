@@ -106,4 +106,8 @@ tail -5 tech.txt = = Ending 5 lines of code or content
 vim editor cmd (yy -copy & p -paste & :set number & shif e & dd for delete &u for undo& o for insert lines & x! for exit vim)
 echo "redhat" | passwd --stdin newuser
 useradd -u 2600 fedorauser = custom user creation
- 
+groupadd calsoft
+cat /etc/group | grep akshay
+useradd -s /sbin/nologin tester = To create inactive user
+usermod -s /bin/bash tester = = To create active user
+
