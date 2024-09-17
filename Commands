@@ -65,5 +65,21 @@ cat /etc/os-release
 arch = system type
 hostname = device name
 hostnamectl set-hostname AkshayShriwaskar = to set hostname
+ip addr = To check ip address
+ifconfig = To check ip address
+ip a = To check ip address
+cat /etc/hosts = To check hosts details
+ping google.com = To check network connectivity 
+ssh-keygen -t rsa = To Create SSH Key
+cat + path of public id = To check or Save SSH key
+tar -czvf ab.tar.bz2 /etc/ = To Zip file .bz2
+tar -czvf ab.tar.gz /etc/ = To Zip file .gz
+tar -czvf ab.tar /etc/tar -czvf ab.tar.gz /etc = = To Zip file .tar.gz
+tar -xvf ab.tar = To extract tar files
+tar -xvf ab.tar.gz = To extract tar files
+tar -xvf ab.tar.bz2 = To extract tar files
+
+
+
 
 
