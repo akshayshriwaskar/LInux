@@ -99,3 +99,4 @@ nslookup facebook.com
 mkdir -pv user1/user2/user3
 cat i.e., cat filename.ext = To view the file data.
 cltr+l = Clear the terminal
+cp unix.txt linux/ = copy file to specific folder
