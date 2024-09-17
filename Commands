@@ -86,6 +86,9 @@ vim show.sh
 sh show.sh
 :wq! = save and exit vim editor
 netstat -tulpn =  generates displays that show network status and protocol statistics. You can display the status of TCP and UDP endpoints in table format
+systemctl start firewalld = To start fiewall
+systemctl status firewalld = To Check fiewall Status
+
 
 
 
