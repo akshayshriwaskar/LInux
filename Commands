@@ -103,3 +103,4 @@ reboot
 poweroff
 head -5 tech.txt = starting 5 lines of code or content
 tail -5 tech.txt = = Ending 5 lines of code or content
+vim editor cmd (yy -copy & p -paste & :set number & shif e & dd for delete &u for undo& o for insert lines & x! for exit vim)
