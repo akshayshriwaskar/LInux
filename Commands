@@ -60,5 +60,10 @@ lsblk = list out all block devices in a tree-like format
 yum install httpd -y =  install package
 yum list installed | grep httpd = to Check installed package
 yum remove httpd -y = remove installed package
+yum update
+cat /etc/os-release
+arch = system type
+hostname = device name
+hostnamectl set-hostname AkshayShriwaskar = to set hostname
 
 
