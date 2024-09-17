@@ -79,7 +79,7 @@ tar -xvf ab.tar /etc = To extract tar files
 tar -xvf ab.tar.gz /etc = To extract tar files
 tar -xvf ab.tar.bz2 /etc = To extract tar files
 nohup yum install httpd -y = Package installed in background
-tail -20f nohup.out = Using the nohup command is one way of blocking the SIGHUP signal and allowing processes to complete even after logging out from the terminal/shell.
+tail -20f nohup.out = Show the background installed application specific lines of process of execution.
 
 
 
