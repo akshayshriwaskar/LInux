@@ -101,4 +101,4 @@ cltr+l = Clear the terminal
 cp unix.txt linux/ = copy file to specific folder
 reboot
 poweroff
-head -5 tech.txt
+head -5 tech.txt = starting 5 lines of code or content
