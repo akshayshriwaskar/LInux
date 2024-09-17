@@ -81,6 +81,7 @@ tar -xvf ab.tar.bz2 /etc = To extract tar files
 nohup yum install httpd -y = Package installed in background
 tail -20f nohup.out = Show the background installed application specific lines of process of execution.
 ps -ef = To check all process
+ps -ef | grep -i bash = i.e., to check specific process is running or not
 
 
 
