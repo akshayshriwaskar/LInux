@@ -11,7 +11,7 @@ rm -r = remove directory forcefully.
 cat = Can be used for a variety of tasks, including: Displaying file contents,Merging files,Appending to text files,Creating new files,Numbering lines,Revealing non-printing characters.
 echo "content">filename.ext= for file creation. i.e., echo "hello demo"> testing.txt. If same file existed then data overwrite.
 echo "content">>filename.ext = for file concatenation. If same file existed then older data will not be overwrite.
-mv = is used to move files. mv can also be used to rename a file.
+mv = is used to move files. mv can also be used to rename a file. i.e.,  mv abc.txt pqr.txt      mv pqr.txt temp/
 free -h = free displays the total amount of free and used physical memory and swap space in the system, as well as the buffers and cache consumed by the kernel in human readable format.
 free
 cat /proc/cpuinfo = To gather as much detailed information about the CPU.
@@ -95,6 +95,7 @@ sed 's/bro/crow/' abc.txt = temperory file modifiled
 sed -i 's/crow/bro/' cloudtech.txt = Permenently file modifiled
 dig google.com
 nslookup facebook.com
+
 mkdir -pv user1/user2/user3
 cat i.e., cat filename.ext = To view the file data.
 cltr+l = Clear the terminal
