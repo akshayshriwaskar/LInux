@@ -88,7 +88,9 @@ sh show.sh
 netstat -tulpn =  generates displays that show network status and protocol statistics. You can display the status of TCP and UDP endpoints in table format
 systemctl start firewalld = To start fiewall
 systemctl status firewalld = To Check fiewall Status
-
-
+firewall-cmd --list -all
+firewall-cmd --permanent --add-port=80/tcp
+firewall-cmd --permanent --remove-port=80/tcp
+sed 's/bro/crow/' abc.txt = temperory file modifiled
 
 
