@@ -56,4 +56,4 @@ touch tiktok {1..10}.txt = create multiple files
 chown -R = allows you to change user and group ownership of a file
 chgrp fedora tiktok* = change groupname
 chown fedora tiktok* = change ownername
-
+lsblk = list out all block devices in a tree-like format
