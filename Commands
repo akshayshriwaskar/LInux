@@ -85,6 +85,7 @@ ps -ef | grep -i bash = i.e., to check specific process is running or not
 vim show.sh
 sh show.sh
 :wq! = save and exit vim editor
+netstat -tulpn =  generates displays that show network status and protocol statistics. You can display the status of TCP and UDP endpoints in table format
 
 
 
